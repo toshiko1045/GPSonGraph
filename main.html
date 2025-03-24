@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color the cactus graph with three colors</title>
+    <title>GPSonGraph</title>
     <link href="style.css" rel="stylesheet" />
     <script type="text/javascript" src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 </head>
     <body>       
         <div id="graphCanvas"></div>
+        <input type="button" value="make new Graph !" onclick="makeGraph()">
+        <input type="button" value="visualize maxGPS !" onclick="paintMaxGPS()">
+        <label>physics:<input type="checkbox" id="physicsCheckBox" checked></label>
         <script src="script.js"></script>
     </body>
 </html>
